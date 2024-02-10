@@ -14,7 +14,44 @@ public class MediaProduct {
 		this.year=year;
 		this.genre=genre;
 	}
+		//vinyl subclass
+	class VinylRecordProduct extends MediaProduct {
+		public VinylRecordProduct(String title, double price, int year, Genre genre) {
+			super(title,price,year,genre);
+		}
+		//copy constructor?
+		//public VinylRecordProduct(VinylRecordProduct vinyl) {
+		//	super(vinyl);
+		//	//title=vinyl.title;
+		//	//price=vinyl.price;
+		//	//year=vinyl.year;
+		//	//genre=vinyl.genre;
+		//}
+		}
 	
+	//cd subclass
+	class CDRecordProduct extends MediaProduct {
+		public CDRecordProduct(String title, double price, int year, Genre genre) {
+			super(title, price, year, genre);
+		}
+		
+		//copy constructor
+		//public CDRecordProduct(CDRecordProduct cd) {
+			//super(cd);
+		//}
+	}
+	
+	//tape subclass
+		class TapeRecordProduct extends MediaProduct {
+			public TapeRecordProduct(String title, double price, int year, Genre genre) {
+				super(title, price, year, genre);
+			}
+			
+			//copy constructor
+			//public TapeRecordProduct(TapeRecordProduct tape) {
+				//super(tape);
+			//}
+		}
 	
 	
 	
