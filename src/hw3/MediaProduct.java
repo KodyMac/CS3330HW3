@@ -50,4 +50,5 @@ public class MediaProduct {
 	protected void setGenre(Genre genre) {
 		this.genre=genre;
 	}
+	
 }
